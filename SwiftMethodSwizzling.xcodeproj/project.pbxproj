@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F600C8A51A15EECC00F49820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600C8A41A15EECC00F49820 /* AppDelegate.swift */; };
+		F600C8A71A15EECC00F49820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600C8A61A15EECC00F49820 /* ViewController.swift */; };
+		F600C8AA1A15EECD00F49820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F600C8A81A15EECD00F49820 /* Main.storyboard */; };
+		F600C8AC1A15EECD00F49820 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F600C8AB1A15EECD00F49820 /* Images.xcassets */; };
+		F600C8AF1A15EECD00F49820 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F600C8AD1A15EECD00F49820 /* LaunchScreen.xib */; };
+		F600C8BB1A15EECD00F49820 /* SwiftMethodSwizzlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600C8BA1A15EECD00F49820 /* SwiftMethodSwizzlingTests.swift */; };
+		F600C8C91A15F35500F49820 /* UIViewController+MethodSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600C8C81A15F35500F49820 /* UIViewController+MethodSwizzling.swift */; };
+		F600C8CA1A15FA6400F49820 /* UIViewController+MethodSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600C8C81A15F35500F49820 /* UIViewController+MethodSwizzling.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F600C8B51A15EECD00F49820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F600C8971A15EECC00F49820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F600C89E1A15EECC00F49820;
+			remoteInfo = SwiftMethodSwizzling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F600C89F1A15EECC00F49820 /* SwiftMethodSwizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMethodSwizzling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F600C8A31A15EECC00F49820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F600C8A41A15EECC00F49820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F600C8A61A15EECC00F49820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F600C8A91A15EECD00F49820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F600C8AB1A15EECD00F49820 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F600C8AE1A15EECD00F49820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F600C8B41A15EECD00F49820 /* SwiftMethodSwizzlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMethodSwizzlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F600C8B91A15EECD00F49820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F600C8BA1A15EECD00F49820 /* SwiftMethodSwizzlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMethodSwizzlingTests.swift; sourceTree = "<group>"; };
+		F600C8C81A15F35500F49820 /* UIViewController+MethodSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MethodSwizzling.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F600C89C1A15EECC00F49820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F600C8B11A15EECD00F49820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F600C8961A15EECC00F49820 = {
+			isa = PBXGroup;
+			children = (
+				F600C8A11A15EECC00F49820 /* SwiftMethodSwizzling */,
+				F600C8B71A15EECD00F49820 /* SwiftMethodSwizzlingTests */,
+				F600C8A01A15EECC00F49820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F600C8A01A15EECC00F49820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F600C89F1A15EECC00F49820 /* SwiftMethodSwizzling.app */,
+				F600C8B41A15EECD00F49820 /* SwiftMethodSwizzlingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F600C8A11A15EECC00F49820 /* SwiftMethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				F600C8A41A15EECC00F49820 /* AppDelegate.swift */,
+				F600C8A61A15EECC00F49820 /* ViewController.swift */,
+				F600C8C81A15F35500F49820 /* UIViewController+MethodSwizzling.swift */,
+				F600C8A81A15EECD00F49820 /* Main.storyboard */,
+				F600C8AB1A15EECD00F49820 /* Images.xcassets */,
+				F600C8AD1A15EECD00F49820 /* LaunchScreen.xib */,
+				F600C8A21A15EECC00F49820 /* Supporting Files */,
+			);
+			path = SwiftMethodSwizzling;
+			sourceTree = "<group>";
+		};
+		F600C8A21A15EECC00F49820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F600C8A31A15EECC00F49820 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F600C8B71A15EECD00F49820 /* SwiftMethodSwizzlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F600C8BA1A15EECD00F49820 /* SwiftMethodSwizzlingTests.swift */,
+				F600C8B81A15EECD00F49820 /* Supporting Files */,
+			);
+			path = SwiftMethodSwizzlingTests;
+			sourceTree = "<group>";
+		};
+		F600C8B81A15EECD00F49820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F600C8B91A15EECD00F49820 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F600C89E1A15EECC00F49820 /* SwiftMethodSwizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F600C8BE1A15EECD00F49820 /* Build configuration list for PBXNativeTarget "SwiftMethodSwizzling" */;
+			buildPhases = (
+				F600C89B1A15EECC00F49820 /* Sources */,
+				F600C89C1A15EECC00F49820 /* Frameworks */,
+				F600C89D1A15EECC00F49820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMethodSwizzling;
+			productName = SwiftMethodSwizzling;
+			productReference = F600C89F1A15EECC00F49820 /* SwiftMethodSwizzling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F600C8B31A15EECD00F49820 /* SwiftMethodSwizzlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F600C8C11A15EECD00F49820 /* Build configuration list for PBXNativeTarget "SwiftMethodSwizzlingTests" */;
+			buildPhases = (
+				F600C8B01A15EECD00F49820 /* Sources */,
+				F600C8B11A15EECD00F49820 /* Frameworks */,
+				F600C8B21A15EECD00F49820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F600C8B61A15EECD00F49820 /* PBXTargetDependency */,
+			);
+			name = SwiftMethodSwizzlingTests;
+			productName = SwiftMethodSwizzlingTests;
+			productReference = F600C8B41A15EECD00F49820 /* SwiftMethodSwizzlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F600C8971A15EECC00F49820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = haranicle;
+				TargetAttributes = {
+					F600C89E1A15EECC00F49820 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F600C8B31A15EECD00F49820 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F600C89E1A15EECC00F49820;
+					};
+				};
+			};
+			buildConfigurationList = F600C89A1A15EECC00F49820 /* Build configuration list for PBXProject "SwiftMethodSwizzling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F600C8961A15EECC00F49820;
+			productRefGroup = F600C8A01A15EECC00F49820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F600C89E1A15EECC00F49820 /* SwiftMethodSwizzling */,
+				F600C8B31A15EECD00F49820 /* SwiftMethodSwizzlingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F600C89D1A15EECC00F49820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F600C8AA1A15EECD00F49820 /* Main.storyboard in Resources */,
+				F600C8AF1A15EECD00F49820 /* LaunchScreen.xib in Resources */,
+				F600C8AC1A15EECD00F49820 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F600C8B21A15EECD00F49820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F600C89B1A15EECC00F49820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F600C8A71A15EECC00F49820 /* ViewController.swift in Sources */,
+				F600C8A51A15EECC00F49820 /* AppDelegate.swift in Sources */,
+				F600C8C91A15F35500F49820 /* UIViewController+MethodSwizzling.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F600C8B01A15EECD00F49820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F600C8BB1A15EECD00F49820 /* SwiftMethodSwizzlingTests.swift in Sources */,
+				F600C8CA1A15FA6400F49820 /* UIViewController+MethodSwizzling.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F600C8B61A15EECD00F49820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F600C89E1A15EECC00F49820 /* SwiftMethodSwizzling */;
+			targetProxy = F600C8B51A15EECD00F49820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F600C8A81A15EECD00F49820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F600C8A91A15EECD00F49820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F600C8AD1A15EECD00F49820 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F600C8AE1A15EECD00F49820 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F600C8BC1A15EECD00F49820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F600C8BD1A15EECD00F49820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F600C8BF1A15EECD00F49820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftMethodSwizzling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F600C8C01A15EECD00F49820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftMethodSwizzling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F600C8C21A15EECD00F49820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMethodSwizzlingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMethodSwizzling.app/SwiftMethodSwizzling";
+			};
+			name = Debug;
+		};
+		F600C8C31A15EECD00F49820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMethodSwizzlingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMethodSwizzling.app/SwiftMethodSwizzling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F600C89A1A15EECC00F49820 /* Build configuration list for PBXProject "SwiftMethodSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F600C8BC1A15EECD00F49820 /* Debug */,
+				F600C8BD1A15EECD00F49820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F600C8BE1A15EECD00F49820 /* Build configuration list for PBXNativeTarget "SwiftMethodSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F600C8BF1A15EECD00F49820 /* Debug */,
+				F600C8C01A15EECD00F49820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F600C8C11A15EECD00F49820 /* Build configuration list for PBXNativeTarget "SwiftMethodSwizzlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F600C8C21A15EECD00F49820 /* Debug */,
+				F600C8C31A15EECD00F49820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F600C8971A15EECC00F49820 /* Project object */;
+}
